@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "mob_attractor",
+  "version": "${version}",
+  "name": "Mob Attractor",
+  "description": "Useful items to attract friendly Mobs",
+  "authors": ["Bandit-Bytes"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.bandit.mob_attractor.client.Mob_attractorClient"
+    ],
+    "main": [
+      "net.bandit.mob_attractor.MobAttractorMod"
+    ]
+  },
+  "mixins": [
+    "mob_attractor.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
