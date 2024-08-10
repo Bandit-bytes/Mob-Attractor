@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "mob_attractor",
+  "id": "mobs_on_demand",
   "version": "${version}",
   "name": "Mob Attractor",
   "description": "Useful items to attract friendly Mobs",
@@ -10,14 +10,14 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "net.bandit.mob_attractor.client.Mob_attractorClient"
+      "net.bandit.mobs_on_demand.client.Mobs_on_demandClient"
     ],
     "main": [
-      "net.bandit.mob_attractor.MobAttractorMod"
+      "net.bandit.mobs_on_demand.MobsOnDemandMod"
     ]
   },
   "mixins": [
-    "mob_attractor.mixins.json"
+    "mobs_on_demand.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",

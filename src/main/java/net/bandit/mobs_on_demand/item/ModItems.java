@@ -1,4 +1,4 @@
-package net.bandit.mob_attractor.item;
+package net.bandit.mobs_on_demand.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
@@ -25,7 +25,7 @@ public class ModItems {
 
     public static final CreativeModeTab MOB_ATTRACTOR_GROUP = Registry.register(
             CREATIVE_MODE_TAB,
-            new ResourceLocation("mob_attractor", "mob_attractor_group"),
+            new ResourceLocation("mobs_on_demand", "mob_attractor_group"),
             FabricItemGroup.builder().title(Component.translatable("itemgroup.mob_attractor"))
                     .icon(() -> new ItemStack(ModItems.CHICKEN_ATTRACTOR))
                     .displayItems((displayContext, entries) -> {
@@ -36,7 +36,7 @@ public class ModItems {
                     }).build());
 
     private static Item register(String name, Item item) {
-        return Registry.register(ITEM, new ResourceLocation("mob_attractor", name), item);
+        return Registry.register(ITEM, new ResourceLocation("mobs_on_demand", name), item);
     }
 
     public static void registerItems() {

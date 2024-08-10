@@ -1,8 +1,8 @@
-package net.bandit.mob_attractor.client;
+package net.bandit.mobs_on_demand.client;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class Mob_attractorClient implements ClientModInitializer {
+public class Mobs_on_demandClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {

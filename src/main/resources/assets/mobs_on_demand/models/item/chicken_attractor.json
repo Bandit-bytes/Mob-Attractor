@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "mob_attractor:item/sheep_attractor"
+    "layer0": "mobs_on_demand:item/chicken_attractor"
   }
 }

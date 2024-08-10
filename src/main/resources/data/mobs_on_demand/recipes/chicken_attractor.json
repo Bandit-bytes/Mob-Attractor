@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "mob_attractor:chicken_attractor",
+    "item": "mobs_on_demand:chicken_attractor",
     "count": 1
   }
 }

@@ -1,4 +1,4 @@
-package net.bandit.mob_attractor.item;
+package net.bandit.mobs_on_demand.item;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.world.InteractionHand;

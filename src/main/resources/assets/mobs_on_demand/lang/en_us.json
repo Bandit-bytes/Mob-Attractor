@@ -1,9 +1,9 @@
 {
-  "item.mob_attractor.chicken_attractor": "Chicken Attractor",
-  "item.mob_attractor.cow_attractor": "Cow Attractor",
-  "item.mob_attractor.sheep_attractor": "Sheep Attractor",
-  "item.mob_attractor.pig_attractor": "Pig Attractor",
-  "itemgroup.mob_attractor": "Mob Attractor's",
+  "item.mobs_on_demand.chicken_attractor": "Chicken Attractor",
+  "item.mobs_on_demand.cow_attractor": "Cow Attractor",
+  "item.mobs_on_demand.sheep_attractor": "Sheep Attractor",
+  "item.mobs_on_demand.pig_attractor": "Pig Attractor",
+  "itemgroup.mob_attractor": "Mob's On Demand",
 
   "item.mob_attractor.chicken_attractor.tooltip1": "Attracts chickens from afar.",
   "item.mob_attractor.chicken_attractor.tooltip2": "Right-click to call nearby chickens.",
