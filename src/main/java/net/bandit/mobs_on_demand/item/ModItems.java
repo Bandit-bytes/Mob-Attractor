@@ -22,6 +22,8 @@ public class ModItems {
             new MobAttractorItem(new FabricItemSettings().stacksTo(1).rarity(Rarity.EPIC)));
     public static final Item PIG_ATTRACTOR = register("pig_attractor",
             new MobAttractorItem(new FabricItemSettings().stacksTo(1).rarity(Rarity.EPIC)));
+    public static final Item VILLAGER_ATTRACTOR = register("villager_attractor",
+            new VillagerAttractorItem(new FabricItemSettings().stacksTo(1).rarity(Rarity.EPIC)));
 
     public static final CreativeModeTab MOB_ATTRACTOR_GROUP = Registry.register(
             CREATIVE_MODE_TAB,
@@ -33,6 +35,7 @@ public class ModItems {
                         entries.accept(ModItems.COW_ATTRACTOR);
                         entries.accept(ModItems.SHEEP_ATTRACTOR);
                         entries.accept(ModItems.PIG_ATTRACTOR);
+                        entries.accept(ModItems.VILLAGER_ATTRACTOR);
                     }).build());
 
     private static Item register(String name, Item item) {

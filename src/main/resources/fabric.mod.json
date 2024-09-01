@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "mobs_on_demand",
   "version": "${version}",
-  "name": "Mob Attractor",
-  "description": "Useful items to attract friendly Mobs",
+  "name": "Mob's On Demand'",
+  "description": "Useful items to attract friendly Mobs.",
   "authors": ["Bandit-Bytes"],
   "contact": {},
   "license": "All-Rights-Reserved",
@@ -23,5 +23,11 @@
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": "${minecraft_version}"
+  },
+  "suggests": {
+    "ftbchunks": "*",
+    "ftblibrary": "*",
+    "architectury": "*",
+    "ftbteams": "*"
   }
 }

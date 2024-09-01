@@ -3,17 +3,22 @@
   "item.mobs_on_demand.cow_attractor": "Cow Attractor",
   "item.mobs_on_demand.sheep_attractor": "Sheep Attractor",
   "item.mobs_on_demand.pig_attractor": "Pig Attractor",
+  "item.mobs_on_demand.villager_attractor": "Villager Attractor",
   "itemgroup.mob_attractor": "Mob's On Demand",
 
-  "item.mob_attractor.chicken_attractor.tooltip1": "Attracts chickens from afar.",
-  "item.mob_attractor.chicken_attractor.tooltip2": "Right-click to call nearby chickens.",
+  "item.mobs_on_demand.chicken_attractor.tooltip1": "Attracts chickens from afar.",
+  "item.mobs_on_demand.chicken_attractor.tooltip2": "Right-click to call nearby chickens.",
 
-  "item.mob_attractor.cow_attractor.tooltip1": "Draws cows to your location.",
-  "item.mob_attractor.cow_attractor.tooltip2": "Right-click to summon nearby cows.",
+  "item.mobs_on_demand.cow_attractor.tooltip1": "Draws cows to your location.",
+  "item.mobs_on_demand.cow_attractor.tooltip2": "Right-click to summon nearby cows.",
 
-  "item.mob_attractor.sheep_attractor.tooltip1": "Entices sheep to follow you.",
-  "item.mob_attractor.sheep_attractor.tooltip2": "Right-click to gather nearby sheep.",
+  "item.mobs_on_demand.sheep_attractor.tooltip1": "Entices sheep to follow you.",
+  "item.mobs_on_demand.sheep_attractor.tooltip2": "Right-click to gather nearby sheep.",
 
-  "item.mob_attractor.pig_attractor.tooltip1": "Brings pigs closer to you.",
-  "item.mob_attractor.pig_attractor.tooltip2": "Right-click to attract nearby pigs."
+  "item.mobs_on_demand.pig_attractor.tooltip1": "Brings pigs closer to you.",
+  "item.mobs_on_demand.pig_attractor.tooltip2": "Right-click to attract nearby pigs.",
+
+  "item.mobs_on_demand.villager_attractor.tooltip1": "Summons villagers like a town crier.",
+  "item.mobs_on_demand.villager_attractor.tooltip2": "Right-click to gather nearby villagers."
+
 }

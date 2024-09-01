@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mobs_on_demand:item/villager_attractor"
+  }
+}
